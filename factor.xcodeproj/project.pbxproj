@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95152F80228FB6D900D41026 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95152F7F228FB6D900D41026 /* Message.swift */; };
+		95152F82228FB79E00D41026 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95152F81228FB79E00D41026 /* Math.swift */; };
 		95325763228F47D400D51310 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95325762228F47D400D51310 /* main.swift */; };
+		95983A71228F4DBB00D145F9 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95983A70228F4DBB00D145F9 /* Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		95152F7F228FB6D900D41026 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		95152F81228FB79E00D41026 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
 		9532575F228F47D400D51310 /* factor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = factor; sourceTree = BUILT_PRODUCTS_DIR; };
 		95325762228F47D400D51310 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9594478B228F48A0003779BD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9594478C228F48A0003779BD /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		95983A70228F4DBB00D145F9 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +49,8 @@
 		95325756228F47D400D51310 = {
 			isa = PBXGroup;
 			children = (
+				9594478C228F48A0003779BD /* LICENSE */,
+				9594478B228F48A0003779BD /* README.md */,
 				95325761228F47D400D51310 /* factor */,
 				95325760228F47D400D51310 /* Products */,
 			);
@@ -58,6 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				95325762228F47D400D51310 /* main.swift */,
+				95983A70228F4DBB00D145F9 /* Functions.swift */,
+				95152F81228FB79E00D41026 /* Math.swift */,
+				95152F7F228FB6D900D41026 /* Message.swift */,
 			);
 			path = factor;
 			sourceTree = "<group>";
@@ -120,6 +133,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				95325763228F47D400D51310 /* main.swift in Sources */,
+				95152F80228FB6D900D41026 /* Message.swift in Sources */,
+				95983A71228F4DBB00D145F9 /* Functions.swift in Sources */,
+				95152F82228FB79E00D41026 /* Math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +200,7 @@
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -238,6 +255,7 @@
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
