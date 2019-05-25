@@ -6,14 +6,10 @@
 //  Copyright © 2019 ToplessBanana. All rights reserved.
 //
 
-import Foundation
-
 /// Writes the factors of one or more integers into the standard output.
 ///
 /// - Parameter input: An array of strings.
-
 public func showFactors(of input: [String]) {
-    let input = input
     guard input.count >= 2 else {
         return print("\(Message.invalidArguments.rawValue)")
     }
@@ -29,9 +25,7 @@ public func showFactors(of input: [String]) {
 /// Writes the greatest common divisor of two integers into the standard output.
 ///
 /// - Parameter input: An array of strings.
-
 public func showGreatestCommonDivisor(of input: [String]) {
-    let input = input
     guard input.count >= 3, let integerA = Int(input[1]), let integerB = Int(input[2]) else {
         return print("\(Message.invalidArguments.rawValue)")
     }
@@ -42,9 +36,7 @@ public func showGreatestCommonDivisor(of input: [String]) {
 /// Writes the least common multiple of two integers into the standard output.
 ///
 /// - Parameter input: An array of strings.
-
 public func showLeastCommonMultiple(of input: [String]) {
-    let input = input
     guard input.count >= 3, let integerA = Int(input[1]), let integerB = Int(input[2]) else {
         return print("\(Message.invalidArguments.rawValue)")
     }
