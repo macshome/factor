@@ -10,10 +10,7 @@
 ///
 /// - Parameter input: An array of strings.
 public func showFactors(of input: [String]) {
-    guard input.count >= 2 else {
-        return print("\(Message.invalidArguments.rawValue)")
-    }
-    for element in 1...input.count - 1 {
+    for element in 0...input.count - 1 {
         guard let integer = Int(input[element]) else {
             return print("\(Message.invalidArguments.rawValue)")
         }

@@ -6,7 +6,7 @@
 //  Copyright © 2019 ToplessBanana. All rights reserved.
 //
 
-let VERSION = "2019.02"
+let VERSION = "2019.03"
 
 let arguments = Array(CommandLine.arguments.dropFirst(1))
 
@@ -28,8 +28,6 @@ private func showUsage() {
 }
 
 switch arguments.first {
-case "factors":
-    showFactors(of: arguments)
 case "gcd":
     showGreatestCommonDivisor(of: arguments)
 case "lcm":
