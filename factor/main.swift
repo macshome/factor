@@ -6,7 +6,7 @@
 //  Copyright © 2019 ToplessBanana. All rights reserved.
 //
 
-let VERSION = "2019.03"
+let VERSION = "2019.04"
 
 let arguments = Array(CommandLine.arguments.dropFirst(1))
 
@@ -14,10 +14,10 @@ let arguments = Array(CommandLine.arguments.dropFirst(1))
 private func showUsage() {
     print(
         """
+        Utility for finding the factors of one or more integers.
         Usage: factor [option] [integer ...]
 
         Options:
-            factors      Find the factors of one or more integers.
             gcd          Find the greatest common divisor of two integers.
             lcm          Find the least common multiple of two integers.
             version      Show the version of this application.
